@@ -1,0 +1,69 @@
+@import 'color';
+@import 'font';
+
+
+.image-dimention {
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.box-shadow {
+    box-shadow: 0 0 9px -5px rgb(0 0 0 / 30%) !important;
+}
+
+.solid-border {
+    border: 1px solid rgba(0, 0, 0, 0.05) !important;
+}
+
+.dot-border {
+    border: 2px dotted rgba(161, 160, 160, 0.226);
+}
+
+.dash-border {
+    border: 1px dashed rgba(128, 128, 128, 0.486);
+}
+
+.left-align {
+    text-align: left !important;
+}
+
+.right-align {
+    text-align: right !important;
+}
+
+.center-align {
+    text-align: center !important;
+}
+
+.line-decoration {
+    text-decoration: line-through;
+}
+
+.extend-cursor {
+    cursor: pointer;
+}
+
+.full-width {
+    width: 100% !important;
+}
+
+.full-height {
+    height: 100% !important;
+}
+
+.extend-line {
+    line-height: 2;
+}
+
+.extend-sticky {
+    position: sticky !important;
+    top: 110px;
+}
+
+.dot_border-bottom {
+    border-bottom: 1px dotted rgba(128, 128, 128, 0.486);
+}
+
+.dash_border-bottom {
+    border-bottom: 1px dashed rgba(128, 128, 128, 0.486);
+}

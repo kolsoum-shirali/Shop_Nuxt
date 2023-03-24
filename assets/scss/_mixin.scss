@@ -1,0 +1,69 @@
+@mixin applyTransition {
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+@mixin applyShadow {
+    box-shadow: 0 0 7px -2px rgb(0 0 0 / 10%) !important;
+    border: 1px solid rgba(0, 0, 0, 0.05) !important;
+}
+
+@mixin productLabel {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    font-size: 11px;
+    font-family: IRANSansnum;
+    text-align: center;
+    line-height: 33px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #10bcb4;
+    z-index: 9;
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 2px;
+        left: 20px;
+        width: 0;
+        height: 0;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-bottom: 7px solid #10bcb4;
+        transform: rotate(-85deg);
+        -webkit-transform: rotate(-85deg);
+        -moz-transform: rotate(-85deg);
+        -ms-transform: rotate(-85deg);
+        -o-transform: rotate(-85deg);
+    }
+}
+
+@mixin widget {
+    &::before {
+        transform: skewY(1deg);
+        top: -6px;
+        height: 32px;
+        width: 100%;
+        background-color: #ebebed;
+        position: absolute;
+        left: 0;
+        border-radius: 10px;
+        content: '';
+    }
+    &::after {
+        transform: skewY(-1deg);
+        height: 42px;
+        width: 100%;
+        background-color: #fff;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-radius: 10px;
+        content: '';
+    }
+}
