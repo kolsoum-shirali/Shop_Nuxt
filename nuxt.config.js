@@ -36,19 +36,26 @@ export default {
         'nuxt-leaflet',
     ],
     pwa: {
-        meta: {
-          name: 'فروشگاه اینترنتی',
-        author:'pwa'
-        },
+        short_name: "فروشگاه اینترنتی",
+        name: "فروشگاه اینترنتی",
+        icons: [
+          {
+            "src": "logo.png",
+            "sizes": "64x64 32x32 24x24 16x16",
+            "type": "image/x-icon"
+          }
+        ],
+        start_url: ".",
+        display: "standalone",
+        theme_color: "#000000",
+        background_color: "#ffffff",
         manifest: {
-          lang: 'en',
-          name: 'shop',
-          short_name:'shop',
-          description:'shop'
-        },
-        icon:{
-            sizes:[64,120,256,512,384],
-            fileName:'icon.png'
+          name: 'فروشگاه اینترنتی',
+          short_name: 'فروشگاه اینترنتی',
+          description: 'فروشگاه اینترنتی',
+          lang: 'fa',
+          dir: 'rtl',
+        //   useWebmanifestExtension: false,
         }
       },
     vuetify: {
