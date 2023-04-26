@@ -6,7 +6,7 @@ const data = {
         id: 1,
         firstName: 'کلثوم',
         lastName: 'شیرعلی',
-        mobile: '09055871223',
+        mobile: '09055666666',
         email: 'kolsoum@gmail.com',
         password: '0000aA',
         rePassword: '0000aA',
