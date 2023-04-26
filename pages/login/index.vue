@@ -63,8 +63,8 @@ export default {
   data() {
     return {
       showPassword: false,
-      mobile: '',
-      password: '',
+      mobile: '09055666666',
+      password: '0000aA',
     }
   },
 
