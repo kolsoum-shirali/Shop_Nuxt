@@ -55,6 +55,7 @@ export default {
   },
   data() {
     return {
+      result: '',
       amazingProducts: [],
       discountCaption: {
         icon: 'mdi-timer-sand',
@@ -65,6 +66,12 @@ export default {
         title: 'کتاب الکترونیکی',
       },
     }
+  },
+  mounted() {
+    // this.result = this.$dayjs(new Date()).format('YYYY-M-D HH:mm:ss')
+    this.result = this.$dayjs(new Date(), { jalali: true })
+      .locale('fa')
+      .format('YYYY/MM/DD')
   },
 }
 </script>
