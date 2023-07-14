@@ -1,0 +1,28 @@
+@font-face {
+  font-family: IRANSans;
+  src: url('static/IRANSans/IRANSans.eot') format('embedded-opentype'),
+    url('static/IRANSans/IRANSans.woff') format('woff'),
+    url('static/IRANSans/IRANSans.ttf') format('ttf'),
+    url('static/IRANSans/IRANSans.woff2') format('woff2');
+}
+
+body{
+    font-family: IRANSans;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+textarea,
+button,
+li,
+a,
+span,
+strong,
+body,
+header {
+    font-family: IRANSans !important;
+}

@@ -19,7 +19,7 @@ export default {
         link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     },
 
-    css: ['@/assets/css/main.css', '@/assets/scss/main.scss'],
+    css: ['@/assets/css/main.css', '@/assets/scss/main.scss', '@/static/IRANSans/font.css'],
 
     plugins: ['@plugins/mixins/global', '@plugins/axios', '@plugins/mock'],
 
