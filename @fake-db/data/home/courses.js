@@ -149,7 +149,7 @@ const data = {
                     },
                 ],
                 comments: [{
-                    fullName: 'kolsoum shirali',
+                    fullName: 'kimia shirali',
                     publishedDate: '25 مهر 1399',
                     recommend: true,
                     courseIdea: [
@@ -868,7 +868,7 @@ const data = {
             },
             authore: {
                 caption: 'مدرس',
-                fullName: 'کلثوم شیرعلی',
+                fullName: 'کیمیا شیرعلی',
                 content: '      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنانکه لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع باهدف بهبود ابزارهای کاربردی می باشد،',
             },
             btnCategory: [{ title: 'برنامه نویسی', id: 2 }],
@@ -1077,7 +1077,7 @@ const data = {
                     },
                 ],
                 comments: [{
-                        fullName: 'kolsoum shirali',
+                        fullName: 'kimia shirali',
                         publishedDate: '25 مهر 1399',
                         recommend: true,
                         courseIdea: [
@@ -1355,7 +1355,7 @@ const data = {
                     },
                 ],
                 comments: [{
-                    fullName: 'kolsoum shirali',
+                    fullName: 'kimia shirali',
                     publishedDate: '25 مهر 1399',
                     recommend: true,
                     courseIdea: [
@@ -1516,7 +1516,7 @@ const data = {
                     },
                 ],
                 comments: [{
-                        fullName: 'kolsoum shirali',
+                        fullName: 'kimia shirali',
                         publishedDate: '25 مهر 1399',
                         recommend: true,
                         courseIdea: [

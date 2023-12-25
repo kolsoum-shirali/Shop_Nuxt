@@ -5,7 +5,7 @@
                 <v-row justify="space-between" align="center">
                     <img
                         class="rounded-xl col-12 col-md-12 col-sm-8"
-                        :src="figureInfo.image || setAltImg"
+                        :src="require(`@/assets/images/${figureInfo.id}.jpg`)"
                         :alt="figureInfo.image"
                         @error="setAltImg"
                     />

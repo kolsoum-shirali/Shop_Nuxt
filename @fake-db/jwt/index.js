@@ -4,7 +4,7 @@ import mock from '@/@fake-db/mock'
 const data = {
     users: [{
         id: 1,
-        firstName: 'کلثوم',
+        firstName: 'کیمیا',
         lastName: 'شیرعلی',
         mobile: '09055666666',
         email: 'kolsoum@gmail.com',

@@ -5,7 +5,7 @@
         <v-card flat class="rounded-lg teacher__card" color="white" height="330">
           <div style="height: 100%">
             <img
-              :src="teacher.image || setAltImg"
+              :src="require(`@/assets/images/${teacher.id}.jpg`)"
               :alt="teacher.image"
               class="teacher__card_img"
               width="100%"

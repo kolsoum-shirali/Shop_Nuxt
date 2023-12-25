@@ -21,7 +21,7 @@ const data = {
         },
         {
             id: 2,
-            fullName: 'جان',
+            fullName: 'کاترین',
             image: 'https://images.unsplash.com/photo-1614252369475-531eba835eb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=415&q=80',
             detail: {
                 skills: [
@@ -61,7 +61,7 @@ const data = {
         },
         {
             id: 4,
-            fullName: 'مک',
+            fullName: 'الینا',
             image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
             detail: {
                 skills: [
@@ -100,7 +100,7 @@ const data = {
         },
         {
             id: 6,
-            fullName: 'دیوید',
+            fullName: 'ملینا',
             image: 'https://images.unsplash.com/photo-1570296767266-60ccc88974a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
             detail: {
                 skills: [
