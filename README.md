@@ -10,5 +10,5 @@
 
 ### Contact me
 
-- *[LinkedIn](https://www.linkedin.com/in/kolsoum-shirali-621ab2265/)*
+- *[LinkedIn](www.linkedin.com/in/kolsoumshirali20026)*
 - *[Email](kolsoumshirali2002@gmail.com)*
