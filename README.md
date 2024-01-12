@@ -2,7 +2,6 @@
 
 <div align="center">
 ![](assets/images/preview.gif)
-![](assets/images/elixir-black.png)
 </div>
 
 ---
