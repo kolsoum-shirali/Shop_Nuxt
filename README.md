@@ -1,9 +1,5 @@
 ### Priview ( video )
-
-<div align="center">
 ![](assets/images/preview.gif)
-</div>
-
 ---
 
 ### Contact me
