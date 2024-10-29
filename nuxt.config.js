@@ -2,11 +2,11 @@
 // import env from './config/env.json'
 export default {
   publicRuntimeConfig: {
-    BASE_URL: '/shop-kolsoum',
+    BASE_URL: '/',
   },
   target: 'static', // default is 'server'
   router: {
-    base: '/shop-kolsoum',
+    base: '/',
   },
   // server: {
   //   port: 3500, // default: 3000
