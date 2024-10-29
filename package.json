@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
+    "deploy": "gh-pages --dotfiles -d .output/public",
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
@@ -49,6 +49,7 @@
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-nuxt": "^3.2.0",
     "eslint-plugin-vue": "^8.7.1",
+    "gh-pages": "^6.2.0",
     "prettier": "^2.8.4",
     "sass": "^1.58.3",
     "sass-loader": "^10.4.1"
