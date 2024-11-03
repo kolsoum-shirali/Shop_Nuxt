@@ -1,13 +1,15 @@
 // import colors from 'vuetify/es5/util/colors'
 // import env from './config/env.json'
 export default {
-  publicRuntimeConfig: {
-    BASE_URL: '/shop-kolsoum',
-  },
+  baseURL: '/shop-kolsoum/',
+  buildAssetsDir: 'assets',
+  // publicRuntimeConfig: {
+  //   BASE_URL: '/',
+  // },
   target: 'static', // default is 'server'
-  router: {
-    base: '/shop-kolsoum',
-  },
+  // router: {
+  //   base: '/',
+  // },
   // server: {
   //   port: 3500, // default: 3000
   //   host: '0.0.0.0', // default: localhost,
