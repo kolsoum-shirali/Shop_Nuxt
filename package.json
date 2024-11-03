@@ -1,5 +1,5 @@
 {
-  "name": "shop-kolsoum",
+  "name": "Shop_Nuxt",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -7,6 +7,7 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
     "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
     "lint:prettier": "prettier --check .",
     "lint": "npm run lint:js && npm run lint:prettier",
@@ -48,6 +49,7 @@
     "eslint-plugin-nuxt": "^3.2.0",
     "eslint-plugin-vue": "^8.7.1",
     "prettier": "^2.8.4",
+    "push-dir": "^0.4.1",
     "sass": "^1.58.3",
     "sass-loader": "^10.4.1"
   }
