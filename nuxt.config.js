@@ -2,9 +2,9 @@
 // import env from './config/env.json'
 export default {
   target: 'static', // default is 'server'
-  router: {
-    base: '/Shop_Nuxt/'
-  },
+  // router: {
+  //   base: '/Shop_Nuxt/'
+  // },
   server: {
     port: 3500, // default: 3000
     host: '0.0.0.0', // default: localhost,
